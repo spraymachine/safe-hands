@@ -3,11 +3,11 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei'
 
 function PuppyModel(props) {
-  const { scene } = useGLTF('/assets/myModel.glb')
+  const { scene } = useGLTF(`${import.meta.env.BASE_URL}assets/myModel.glb`)
   return <primitive object={scene} {...props} />
 }
 
-useGLTF.preload('/assets/myModel.glb')
+useGLTF.preload(`${import.meta.env.BASE_URL}assets/myModel.glb`)
 
 export function ModelViewer() {
   return (
