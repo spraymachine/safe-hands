@@ -1,13 +1,14 @@
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei'
+import puppyGlbUrl from '../assets/myModel.glb?url'
 
 function PuppyModel(props) {
-  const { scene } = useGLTF(`${import.meta.env.BASE_URL}assets/myModel.glb`)
+  const { scene } = useGLTF(puppyGlbUrl)
   return <primitive object={scene} {...props} />
 }
 
-useGLTF.preload(`${import.meta.env.BASE_URL}assets/myModel.glb`)
+useGLTF.preload(puppyGlbUrl)
 
 export function ModelViewer() {
   return (

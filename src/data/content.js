@@ -5,8 +5,8 @@ export const heroHighlights = [
 ]
 
 export const stats = [
-  { icon: '👩‍⚕️', title: '15+', description: 'Years Experience' },
-  { icon: '🐾', title: '5000+', description: 'Happy Pets' },
+  { icon: '👩‍⚕️', title: '3+', description: 'Years Experience' },
+  { icon: '🐾', title: '10000+', description: 'Happy Pets' },
   { icon: '🕑', title: '24/7', description: 'Emergency Care' },
   { icon: '💙', title: '100%', description: 'Dedicated Care' },
 ]
@@ -47,15 +47,15 @@ export const services = [
 export const contactCards = [
   {
     title: 'Location',
-    body: ['123 Pet Care Lane', 'Veterinary District', 'City, State 12345'],
+    body: ['K A, Paul convention hall', 'Ram Nagar', 'Vizag, AP'],
   },
   {
     title: 'Phone',
-    body: ['Main: (555) 123-4567', 'Emergency: (555) 123-4568'],
+    body: ['Main: 8914054376', 'Emergency: +918074695965'],
   },
   {
     title: 'Email',
-    body: ['info@safehands.vet', 'emergency@safehands.vet'],
+    body: ['isafehandspetclinicvizag' , '@gmail.com'],
   },
   {
     title: 'Hours',
