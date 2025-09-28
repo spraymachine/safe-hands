@@ -43,7 +43,9 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <p className="footer-copy">Designed and Developed by Mani Dodla</p>
+      <p className="footer-copy">
+        <span className="footer-signoff">Designed & Developed by Mani Dodla</span>
+      </p>
     </footer>
   )
 }

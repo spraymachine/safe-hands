@@ -590,6 +590,42 @@ textarea:focus {
   font-size: 0.9rem;
 }
 
+.footer-signoff {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  justify-content: flex-end;
+}
+
+.footer-signoff::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(243, 247, 249, 0.45), rgba(255, 255, 255, 0.95));
+}
+
+.footer-signoff::after {
+  content: '✦';
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (min-width: 768px) {
+  .footer-copy {
+    text-align: right;
+  }
+}
+
 @media (max-width: 996px) {
   .hero .container {
     grid-template-columns: 1fr;
