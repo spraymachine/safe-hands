@@ -43,7 +43,7 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <p className="footer-copy">© 2024 Safe Hands Veterinary Clinic. All rights reserved.</p>
+      <p className="footer-copy">Designed and Developed by Mani Dodla</p>
     </footer>
   )
 }
