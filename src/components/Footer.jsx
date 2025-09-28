@@ -37,9 +37,9 @@ export function Footer() {
         <div className="footer-contact">
           <h4>Contact Info</h4>
           <ul>
-            <li>(555) 123-4567</li>
-            <li>info@safehands.vet</li>
-            <li>123 Pet Care Lane</li>
+            <li>(+91)8074695965</li>
+            <li>isafehandspetclinicvizag@gmail.com</li>
+            <li>Ram Nagar Vizag</li>
           </ul>
         </div>
       </div>
