@@ -2,7 +2,7 @@
   "name": "safe-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https:/safehands.live",
+  "homepage": "https://safehands.live",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
